@@ -1,23 +1,36 @@
 <?xml version="1.0"?>
 <package>
     <name>related_product_slider</name>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <stability>stable</stability>
-    <license>Open Software License</license>
+    <license>Open Software License (OSL)</license>
     <channel>community</channel>
     <extends/>
-    <summary>This is magento extension for related product slider.</summary>
-    <description>This is related product slider extension for product page.&#xD;
+    <summary>This is related product slider extension for magento latest version 1.9</summary>
+    <description> This is a related product slider extension for magento latest version 1.9&#xD;
 &#xD;
-if you want to display many products on related products then its difficult to display on product page, but you can easily display with this slider.&#xD;
+This Extension works on the product page. &#xD;
 &#xD;
+Its user friendly and easy to install and configure.&#xD;
 &#xD;
-</description>
-    <notes>Related product slider stable version.</notes>
+ If you want to display no of related products on product page then its hard to manage so put this slider and display unlimited products.&#xD;
+&#xD;
+its give smoothly sliding effect to product thumbnail images.&#xD;
+&#xD;
+This is continuous scrolling slider.&#xD;
+&#xD;
+JQuery no conflict added to avoid conflicts with other scripts.&#xD;
+&#xD;
+Compatible with all modern browser.&#xD;
+&#xD;
+Lightweight, modern and fast loading slider design.&#xD;
+&#xD;
+User can easily install and customize CSS and HTML formatting. </description>
+    <notes>This is stable version of related product slider extension</notes>
     <authors><author><name>iquallinfo</name><user>admin</user><email>support@i-quall.com</email></author></authors>
-    <date>2014-11-28</date>
-    <time>06:26:25</time>
-    <contents><target name="mageskin"><dir name="frontend"><dir name="rwd"><dir name="default"><dir name="css"><file name="related.css" hash="b3c89a53ed219e937fbf3d42549b84ef"/></dir><dir name="images"><file name="next.png" hash="fa1246a4a18a69d26a479c8638e07b25"/><file name="prvi.png" hash="fe3891b368261180cb69ad1951a793eb"/></dir><dir name="js"><file name="jquery.bxslider.js" hash="d76155e70fbd82622431440d71bb8acc"/><file name="jquery.bxslider.min.js" hash="d54c9a5f73116858f86ad80d5a4c1778"/></dir></dir></dir></dir></target></contents>
+    <date>2014-12-08</date>
+    <time>11:12:45</time>
+    <contents><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="related.css" hash="b3c89a53ed219e937fbf3d42549b84ef"/></dir><dir name="images"><file name="next.png" hash="fa1246a4a18a69d26a479c8638e07b25"/><file name="prvi.png" hash="fe3891b368261180cb69ad1951a793eb"/></dir><dir name="js"><file name="jquery.bxslider.js" hash="d76155e70fbd82622431440d71bb8acc"/><file name="jquery.bxslider.min.js" hash="d54c9a5f73116858f86ad80d5a4c1778"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="rwd"><dir name="default"><dir name="template"><dir name="catalog"><dir name="product"><dir name="list"><file name="updated-related.phtml" hash="cdff545fe195275e256c27415f72c229"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="related-product-slider"><file name="readme.txt" hash="7767e382555c52b2a20d6cbc3d4d4e77"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package></required></dependencies>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package></required></dependencies>
 </package>

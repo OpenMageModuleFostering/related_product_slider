@@ -1,9 +1,9 @@
 {
     "name": "OpenMageModuleFostering/related_product_slider",
     "type": "magento-module",
-    "license": "Open-Software-License",
+    "license": "Open-Software-License-(OSL)",
     "homepage": "",
-    "description": "This is magento extension for related product slider.",
+    "description": "This is related product slider extension for magento latest version 1.9",
     "authors": [
     {
         "name": "iquallinfo",
