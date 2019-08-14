@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>related_product_slider</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This is magento extension for related product slider.</summary>
+    <description>This is related product slider extension for product page.&#xD;
+&#xD;
+if you want to display many products on related products then its difficult to display on product page, but you can easily display with this slider.&#xD;
+&#xD;
+&#xD;
+</description>
+    <notes>Related product slider stable version.</notes>
+    <authors><author><name>iquallinfo</name><user>admin</user><email>support@i-quall.com</email></author></authors>
+    <date>2014-11-28</date>
+    <time>06:26:25</time>
+    <contents><target name="mageskin"><dir name="frontend"><dir name="rwd"><dir name="default"><dir name="css"><file name="related.css" hash="b3c89a53ed219e937fbf3d42549b84ef"/></dir><dir name="images"><file name="next.png" hash="fa1246a4a18a69d26a479c8638e07b25"/><file name="prvi.png" hash="fe3891b368261180cb69ad1951a793eb"/></dir><dir name="js"><file name="jquery.bxslider.js" hash="d76155e70fbd82622431440d71bb8acc"/><file name="jquery.bxslider.min.js" hash="d54c9a5f73116858f86ad80d5a4c1778"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package></required></dependencies>
+</package>
